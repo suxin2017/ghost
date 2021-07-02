@@ -1,0 +1,22 @@
+{
+  "name": "@ghost/ghost",
+  "version": "0.0.1-demo",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "suxin2017",
+  "license": "ISC",
+  "workspaces": [
+    "packages/core",
+    "packages/logger"
+  ],
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.3"
+  }
+}

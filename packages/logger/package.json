@@ -1,0 +1,12 @@
+{
+  "name": "@ghost/logger",
+  "version": "0.0.1-demo",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wenxin07",
+  "license": "ISC"
+}
