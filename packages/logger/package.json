@@ -1,6 +1,6 @@
 {
   "name": "slow-logger",
-  "version": "0.0.1-demo",
+  "version": "0.0.2-demo.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "slow-example",
-  "version": "0.0.1-demo",
+  "version": "0.0.2-demo.0",
   "description": "slow example",
   "main": "dist/index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/suxin2017/ghost#readme",
   "dependencies": {
     "reflect-metadata": "^0.1.13",
-    "slow-web": "^0.0.1-demo"
+    "slow-web": "^0.0.2-demo.0"
   }
 }

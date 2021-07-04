@@ -1,6 +1,6 @@
 {
   "name": "slow-web",
-  "version": "0.0.1-demo",
+  "version": "0.0.2-demo.0",
   "description": "slow web client",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,8 +28,8 @@
     "koa-body": "^4.2.0",
     "koa-router": "^10.0.0",
     "reflect-metadata": "^0.1.13",
-    "slow-core": "^0.0.1-demo",
-    "slow-logger": "^0.0.1-demo"
+    "slow-core": "^0.0.2-demo.0",
+    "slow-logger": "^0.0.2-demo.0"
   },
   "devDependencies": {
     "@types/koa": "^2.13.3",

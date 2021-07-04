@@ -1,6 +1,6 @@
 {
   "name": "slow-core",
-  "version": "0.0.1-demo",
+  "version": "0.0.2-demo.0",
   "description": "slow core",
   "main": "dist/index.js",
   "scripts": {
@@ -14,6 +14,6 @@
     "glob-promise": "^4.2.0",
     "koa": "^2.13.1",
     "reflect-metadata": "^0.1.13",
-    "slow-logger": "^0.0.1-demo"
+    "slow-logger": "^0.0.2-demo.0"
   }
 }
