@@ -43,7 +43,6 @@ const funcWrapper = (
   const oldFunc: Function = prop?.value;
   const argumentLength = oldFunc.length;
   const wrapper: IWrapperFunc = function (this: any, ctx) {
-    console.log('被调用')
     let args = [];
     for (let argIndex = 0; argIndex < argumentLength; argIndex++) {
       if (Reflect.getMetadata(argIndex, target, propertyKey) === QUERY_PARAMS) {
