@@ -22,6 +22,9 @@
   "homepage": "https://github.com/suxin2017/ghost#readme",
   "dependencies": {
     "reflect-metadata": "^0.1.13",
-    "slow-web": "^0.0.2-demo.0"
+    "slow-typeorm": "^0.0.1-demo",
+    "slow-web": "^0.0.2-demo.0",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.34"
   }
 }

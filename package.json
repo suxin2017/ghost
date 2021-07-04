@@ -14,7 +14,8 @@
     "packages/core",
     "packages/logger",
     "packages/web",
-    "packages/example"
+    "packages/example",
+    "packages/typeorm"
   ],
   "dependencies": {
     "@types/node": "^16.0.0",

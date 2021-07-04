@@ -1,0 +1,23 @@
+{
+	"name": "slow-typeorm",
+	"version": "0.0.1-demo",
+	"description": "typeorm plugin",
+	"main": "dist/index.js",
+  "types":"dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/suxin2017/ghost.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/suxin2017/ghost/issues"
+	},
+	"homepage": "https://github.com/suxin2017/ghost#readme",
+	"peerDependencies": {
+		"typeorm": "^0.2.34"
+	},
+	"dependencies": {
+		"slow-web": "^0.0.2-demo.0"
+	}
+}
