@@ -5,5 +5,5 @@ export const AutoWired: PropertyDecorator = (target, propertyKey) => {
 };
 
 export const isAutoWried = (target: Object, propertyKey: string | symbol) => {
-  return Reflect.getMetadata(propertyKey,target) === AUTO_WIRED;
+  return Reflect.getMetadata(propertyKey, target) === AUTO_WIRED;
 };

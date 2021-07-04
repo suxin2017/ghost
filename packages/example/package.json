@@ -1,0 +1,27 @@
+{
+  "name": "slow-example",
+  "version": "0.0.1-demo",
+  "description": "slow example",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=slow* ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suxin2017/ghost.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "suxin2017",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suxin2017/ghost/issues"
+  },
+  "homepage": "https://github.com/suxin2017/ghost#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "slow-web": "^0.0.1-demo"
+  }
+}

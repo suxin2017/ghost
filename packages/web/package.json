@@ -1,0 +1,38 @@
+{
+  "name": "slow-web",
+  "version": "0.0.1-demo",
+  "description": "slow web client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suxin2017/ghost.git"
+  },
+  "keywords": [
+    "web",
+    "library"
+  ],
+  "author": "suxin2017",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suxin2017/ghost/issues"
+  },
+  "homepage": "https://github.com/suxin2017/ghost#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "reflect-metadata": "^0.1.13",
+    "slow-core": "^0.0.1-demo",
+    "slow-logger": "^0.0.1-demo"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.3",
+    "@types/koa-router": "^7.4.2"
+  }
+}

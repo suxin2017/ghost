@@ -1,14 +1,19 @@
 {
-  "name": "@ghost/core",
+  "name": "slow-core",
   "version": "0.0.1-demo",
-  "description": "ghost core",
-  "main": "index.js",
+  "description": "slow core",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "tsc -w"
   },
   "author": "suxin2017",
-  "license": "ISC",
+  "license": "MIT",
+  "types": "./dist/index.d.ts",
   "dependencies": {
-    "koa": "^2.13.1"
+    "glob-promise": "^4.2.0",
+    "koa": "^2.13.1",
+    "reflect-metadata": "^0.1.13",
+    "slow-logger": "^0.0.1-demo"
   }
 }

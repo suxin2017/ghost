@@ -2,6 +2,10 @@
   "extends": "../../configs/base.json",
   "compilerOptions": {
     "outDir": "dist",
+    "paths": {
+      "slow-core":["../core/*"],
+      "slow-logger":["../logger/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules/**/*"]

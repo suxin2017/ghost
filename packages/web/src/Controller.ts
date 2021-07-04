@@ -1,8 +1,7 @@
 import Koa from "koa";
-import "reflect-metadata";
 
 import { getBody, getFile, getQuery } from "./utls/param";
-import { Bean } from "./Bean";
+import { Bean } from "slow-core";
 interface IWrapperFunc extends Koa.Middleware {
   displayName?: string;
 }
@@ -44,6 +43,7 @@ const funcWrapper = (
   const oldFunc: Function = prop?.value;
   const argumentLength = oldFunc.length;
   const wrapper: IWrapperFunc = function (this: any, ctx) {
+    console.log('被调用')
     let args = [];
     for (let argIndex = 0; argIndex < argumentLength; argIndex++) {
       if (Reflect.getMetadata(argIndex, target, propertyKey) === QUERY_PARAMS) {

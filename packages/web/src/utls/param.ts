@@ -1,4 +1,6 @@
 import Koa from "koa";
+import KoaBody from "koa-body";
+
 export function getQuery<T>(
   ctx: Koa.ParameterizedContext<Koa.DefaultState, Koa.DefaultContext, any>
 ) {
